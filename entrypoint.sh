@@ -4,7 +4,7 @@ if [ -d /bundle ]; then
     cd /bundle
     tar xzf *.tar.gz
     cd /bundle/bundle/programs/server/
-    npm i
+    yarn
     cd /bundle/bundle/
 fi
 
