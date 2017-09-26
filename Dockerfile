@@ -11,8 +11,7 @@ RUN \
     apt-get -y autoremove &&\
     apt-get clean &&\
     rm -rf /var/lib/apt/lists/* &&\
-    npm update -g &&\
-    npm cache clean
+    npm update -g
 
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
